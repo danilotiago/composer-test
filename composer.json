@@ -1,0 +1,23 @@
+{
+    "name": "danilotiago/teste-composer",
+    "description": "Um teste de package do composer",
+    "require": {
+        "php": ">=7.0.0",
+        "silex/silex": "1.3.*@stable"
+    },
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danilo Tiago",
+            "email": "programacao.desenvolvimento@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "danilotiago\\test\\": "src/danilotiago/test"
+        }
+    }
+}
