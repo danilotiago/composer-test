@@ -1,3 +1,3 @@
-# Dillinger
+# Test with composer
 
-Teste de package
+This is a only test with composer
